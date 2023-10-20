@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #6c7289;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2ebe3;
+}
+
+.component {
+  display: flex;
+  width: 40%;
+  background-color: #ffffff;
+}
+
+img {
+  width: 50%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.category {
+  letter-spacing: 6px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: #000000;
+}
