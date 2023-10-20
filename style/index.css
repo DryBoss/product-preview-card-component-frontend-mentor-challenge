@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #6c7289;
+  color: #000000;
 }
 
 body {
@@ -22,10 +22,12 @@ body {
   display: flex;
   width: 40%;
   background-color: #ffffff;
+  border-radius: 20px;
 }
 
 img {
   width: 50%;
+  border-radius: 20px 0 0 20px;
 }
 
 .details {
@@ -42,5 +44,32 @@ img {
 h1 {
   font-family: "Fraunces", serif;
   font-size: 30px;
+}
+
+.description {
+  line-height: 25px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: #3c8067;
+}
+.price s {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 20px;
   color: #000000;
+}
+
+button {
+  background-color: #3c8067;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 15px;
 }
