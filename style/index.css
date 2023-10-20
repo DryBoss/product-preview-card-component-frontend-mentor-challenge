@@ -20,14 +20,18 @@ body {
 
 .component {
   display: flex;
-  width: 40%;
+  width: 600px;
   background-color: #ffffff;
   border-radius: 20px;
 }
 
-img {
+#desktop-image {
   width: 50%;
   border-radius: 20px 0 0 20px;
+}
+
+#mobile-image {
+  display: none;
 }
 
 .details {
@@ -72,4 +76,22 @@ button {
   font-weight: bold;
   color: #ffffff;
   font-size: 15px;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    height: auto;
+  }
+  .component {
+    flex-direction: column;
+    width: 75%;
+    margin: 20px;
+  }
+  #desktop-image {
+    display: none;
+  }
+  #mobile-image {
+    display: inline;
+    border-radius: 20px 20px 0 0;
+  }
 }
